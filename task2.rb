@@ -42,10 +42,11 @@ for l in lines
 end
 
 i = 0
-while i < lines.length
-    put lines[i]
+until  i == lines.length
+    puts lines[i]
     i += 1
 end
+
 
 
 #####################################################
